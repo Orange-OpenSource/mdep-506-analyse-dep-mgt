@@ -8,6 +8,7 @@
         <groupId>com.orange.clara.cloud</groupId>
         <artifactId>elpaaso-plugins-management</artifactId>
         <version>3.0.63</version>
+        <relativePath/>
     </parent>
 
     <groupId>com.orange.oos.maven.bug</groupId>
@@ -74,37 +75,11 @@
             <dependency>
                 <groupId>org.springframework.cloud</groupId>
                 <artifactId>spring-cloud-spring-service-connector</artifactId>
-                <!--<exclusions>-->
-                <!--<exclusion>-->
-                <!--<groupId>log4j</groupId>-->
-                <!--<artifactId>log4j</artifactId>-->
-                <!--</exclusion>-->
-                <!--</exclusions>-->
             </dependency>
         </dependencies>
     </dependencyManagement>
     <build>
-        <!--<pluginManagement>-->
-            <!--<plugins>-->
-                <!--<plugin>-->
-                    <!--<artifactId>maven-dependency-plugin</artifactId>-->
-                    <!--<version>2.10</version>-->
-                    <!--<executions>-->
-                        <!--<execution>-->
-                            <!--<goals>-->
-                                <!--<goal>analyze-dep-mgt</goal>-->
-                            <!--</goals>-->
-                            <!--&lt;!&ndash;<phase>verify</phase>&ndash;&gt;-->
-                            <!--<configuration>-->
-                                <!--<failBuild>false</failBuild>-->
-                                <!--<ignoreDirect>false</ignoreDirect>-->
-                                <!--<skip>false</skip>-->
-                            <!--</configuration>-->
-                        <!--</execution>-->
-                    <!--</executions>-->
-                <!--</plugin>-->
-            <!--</plugins>-->
-        <!--</pluginManagement>-->
+
         <plugins>
             <plugin>
                 <artifactId>maven-dependency-plugin</artifactId>
